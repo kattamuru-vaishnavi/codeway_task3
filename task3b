@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Doctor
+        </title>
+        <style>
+            body{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                
+                 background-image: url("https://watermark.lovepik.com/photo/40176/4710.jpg_wh1200.jpg");
+                 background-repeat: no-repeat;
+                 background-position: center;
+                background-size: cover;
+                
+                font-style: italic;
+                margin: 0;
+            }
+            h1{
+                color: rgb(226, 43, 73);
+                text-align: center;
+            }
+            h3{
+                color: rgb(64, 16, 225);
+                text-align: center;
+            }
+            button{
+          
+          background-color: rgb(116, 189, 229);
+          border-radius: 20px;
+          padding: 15px 30px; 
+           margin: 10px auto;
+          display: block;
+          align-items: center;
+          cursor: pointer;
+      }
+      div{
+        background-image: linear-gradient(to bottom right, rgb(81, 158, 217), rgb(242, 246, 249));
+
+         font-size: x-large;
+         width: 50%;
+         border-radius: 20px;
+          background-position: center;
+          max-width: 600px;
+            margin: 20px auto;
+            padding: 30px;
+            box-shadow: 10px 10px 5px 10px rgba(0, 0.7, 1.5, 0.5);
+            border-radius: 8px;
+      }
+      input, select {
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 15px;
+            font-style: italic;
+        }
+        nav {
+            text-align: right;
+            margin-top: 20px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: x-large;
+        }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="task3.html">Home</a>
+            <a href="help.html">Help</a>
+            <a href="contacts.html">Contacts</a>
+        </nav>
+        <div><h1>Chinmai Hospitals</h1>
+       <h3>Patient Details </h3>
+        <form><p>Name:<input type="text" placeholder="Patient name" required></p>
+            <p>Age:<input type="text" placeholder="Patient age" required></p>
+           <p>Gender: <select><option>Female</option> <option>Male</option>
+         <option>Other</option> </select></p>
+            <p>Weight:<input type="text" placeholder="Patient weight" ></p>
+            <p>Height:<input type="text" placeholder="Patient height"></p>
+            <p>Date of appointment: <input id="date" type="date" ></p>
+            <p>Phone:<input type="text" placeholder="Phone number"></p>
+            
+           <p>Department: <select aria-placeholder="Department" required>
+            <option>Select</option>
+                
+            <option>Dental</option>
+            <option>Radiology</option>
+                <option>Cardiology</option>
+                <option>Emergency</option>
+                <option>Physiotherapy</option>
+                <option>General Medicine</option>
+                <option>Gynaecology</option>
+                <option>ENT</option>
+                
+               </select></p>
+           <button onclick="msg()">Book Appointment</button>
+    </form></div>
+       <script>
+        function msg(){
+            alert("Your appointment is booked at Chinmai Hospitals. Soon, you will receive a message about your appointment time from us.Thank You.");
+         }
+
+       </script>
+    </body>
+</html>
