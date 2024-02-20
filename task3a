@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Doctor</title>
+       <style>
+        body {
+    font: italic;
+    background-image: url("https://www.teahub.io/photos/full/264-2644763_international-doctors-day-2020.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  text-align: center;
+  overflow: hidden;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    
+    
+}
+
+div {
+    
+    padding-top: 5%;
+    padding-right: 60%;
+    margin: auto;
+    width: 60%;
+    height: 80vh;
+    font-style: italic;
+    text-align: center;
+    align-items: left;
+    font-size: x-large;
+    border-radius: 30px;
+    
+}
+
+footer {
+    color: black;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    margin-top: auto; 
+    padding: 1px 0;
+}
+
+        h1{
+            color: rgb(226, 43, 73);
+           
+        }
+        h4{
+            padding-bottom: 5%;
+        }
+       
+        button{
+          
+            background-color: rgb(16, 195, 223);
+            border-radius: 20px;
+            padding: 15px 30px; 
+             margin: 10px auto;
+            display: block;
+            align-items: center;
+            cursor: pointer;
+        }
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: x-large;
+        }
+        #depList {
+            display: none;
+            list-style: none;
+        }
+       
+        
+
+       </style>
+    </head>
+    <body>
+        <div id="left">
+            <nav>
+                <a href="task3.html">Home</a>
+                <a href="help.html">Help</a>
+                <a href="contacts.html">Contacts</a>
+            </nav>
+        <h1>Chinmai Hospitals</h1>
+        <h5>Road.no:10,Sarpavaram Junction,Kakinada</h4>
+        <button onclick="dep()">Our Departments</button>
+        <ul id="depList">
+            <li>Dental</li>
+            <li>Radiology</li>
+            <li>Cardiology</li>
+            <li>Emergency</li>
+            <li>Physiotherapy</li>
+            <li>General Medicine</li>
+            <li>Gynaecology</li>
+            <li>ENT</li>
+        </ul>
+
+        <a href="task3b.html"><button>Appointment Registration</button> </a>
+       
+    </div>
+    <footer>&copy; 2024 Chinmai Hospitals|All rights reserved  </footer>
+    <script>
+        function dep() {
+            var depList = document.getElementById("depList");
+            var depItems = document.querySelectorAll("#depList li");
+
+            if (depList.style.display === "none") {
+                depList.style.display = "block";
+                depItems.forEach(item => item.style.display = "block");
+            } else {
+                depList.style.display = "none";
+                depItems.forEach(item => item.style.display = "none");
+            }
+        }
+    </script>
+     
+    </body>
+    
+</html>
