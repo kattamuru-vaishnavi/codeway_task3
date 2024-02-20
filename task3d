@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Us</title>
+    <style>
+       body {
+    font-style: italic;
+    background-image: url("https://img.freepik.com/free-photo/frame-medical-equipment-desk_23-2148519742.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    overflow: hidden;
+    margin: 0;
+}
+
+div {
+    padding: 5% 10% 10%; 
+            margin: auto;
+            width: 60%;
+            font-style: italic;
+            font-size:large;
+            margin-bottom: 20px;
+}
+
+h1 {
+    color: rgb(222, 51, 79);
+    text-align: center;
+}
+
+p {
+    color: rgb(6, 2, 46);
+    margin: 20px 0;
+}
+
+h2,
+h3 {
+    padding-left: 10px;
+    text-align: center;
+}
+
+#matter {
+    align-items: center;
+}
+
+nav {
+    text-align: center;
+
+}
+
+nav a {
+    margin: 10px 15px;
+    text-decoration: none;
+    color: rgb(12, 11, 11);
+    font-weight: bold;
+}
+
+footer {
+    background-color: rgb(182, 177, 187);
+    color: rgb(17, 8, 8);
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: relative;
+    margin-top: auto;
+}
+
+
+    </style>
+</head>
+
+<body>
+    <div>
+       
+            <nav>
+                <a href="task3.html">Home</a>
+                <a href="help.html">Help</a>
+                <a href="contacts.html">Contacts</a>
+            </nav>
+           <header>
+            <h1>Chinmai Hospitals</h1>
+            <h3>Contacts</h3>
+        </header>
+        <div id="matter">
+        <h5>Our Address</h5>
+        <p>Chinmai Hospitals</p>
+        <p>Road.no:10, Sarpavaram Junction, Kakinada</p>
+
+        <h5>Contact Information</h5>
+        <p>Email: chinmaihospitals@gmail.com</p>
+        <p>Phone: +91 999 888 7777</p>
+
+        <h5>Emergency Contact</h5>
+        <p>Emergency Helpline: 24/7 - Dial 123</p>
+    </div>
+        
+    </div>
+    <footer>
+        &copy; 2024 Chinmai Hospitals. All rights reserved.
+    </footer>
+</body>
+
+</html>
