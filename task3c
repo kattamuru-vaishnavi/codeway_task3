@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <title>Help</title>
+    <style>
+        body {
+            font-style: italic;
+            background-image: url("https://img.freepik.com/free-photo/health-still-life-with-copy-space_23-2148854031.jpg");
+                 background-repeat: no-repeat;
+                 background-position: center;
+                background-size: cover;
+            align-items: center;
+            overflow: hidden;
+            margin: 0;
+        }
+        div {
+            padding-top: 10%;
+           
+            margin: auto;
+            width: 60%;
+            height: 100vh;
+            font-style: italic;
+            float: right;
+            font-size: x-large;
+           
+        }
+        h1 {
+            color: rgb(226, 43, 73);
+            text-align: center;
+        }
+        p {
+            color: rgb(6, 2, 46);
+            margin: 20px;
+        }
+        h2,h3{
+            padding-left: 10px;
+        }
+      
+        nav {
+            text-align: center;
+           
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: rgb(12, 11, 11);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <nav>
+            <a href="task3.html">Home</a>
+            <a href="help.html">Help</a>
+            <a href="contacts.html">Contacts</a>
+        </nav>
+        <h1>Chinmai Hospitals</h1>
+        <h3>Help Page</h3>
+        <p>Welcome to the Chinmai Hospitals Help Page. If you have any questions or need assistance, please refer to the information below:</p>
+
+        
+        <p>
+            Q: How do I make an appointment? <br>
+            A: Visit our <a href="task3b.html">Appointment Registration</a> page to schedule your appointment online.
+        </p>
+
+        <h2>Contact Information</h2>
+        <p>
+            For further assistance, you can contact us at:<br>
+            Email: chinmaihospitals@gmail.com<br>
+            Phone: 999-888-6666
+        </p>
+    </div>
+</body>
+</html>
